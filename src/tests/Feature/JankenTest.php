@@ -2,7 +2,6 @@
 
 namespace Tests\Feature;
 
-use App\Services\CpuCharacterService;
 use App\Services\JankenService;
 use Tests\TestCase;
 
