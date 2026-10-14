@@ -12,7 +12,7 @@ class Calculator
      */
     public function subtract(int|float $a, int|float $b): int|float
     {
-        return $a - $b;
+        return $a * $b;
     }
     /**
      * 2つの数を掛ける
