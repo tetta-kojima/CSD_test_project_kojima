@@ -36,6 +36,7 @@ class Calculator
         if ($b === 0) {
             throw new \InvalidArgumentException('0で割ることはできません');
         }
+
         return $a / $b;
     }
 }
