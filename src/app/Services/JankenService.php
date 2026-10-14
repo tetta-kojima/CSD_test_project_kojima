@@ -170,7 +170,7 @@ class JankenService
         $validHands = $this->getAllHands();
 
         // プレイヤーの手の妥当性チェック
-        if (! in_array($playerHand, $validHands, true)) {
+        if (!in_array($playerHand, $validHands, true)) {
             throw new InvalidArgumentException("Invalid player hand: {$playerHand}");
         }
 
@@ -181,7 +181,7 @@ class JankenService
 
         // 各CPUの手の妥当性チェック
         foreach ($cpuHands as $hand) {
-            if (! in_array($hand, $validHands, true)) {
+            if (!in_array($hand, $validHands, true)) {
                 throw new InvalidArgumentException("Invalid cpu hand: {$hand}");
             }
         }

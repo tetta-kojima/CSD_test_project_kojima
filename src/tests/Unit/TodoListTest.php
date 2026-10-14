@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use App\Services\TodoList;
-use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\Attributes\Test;
+use App\Services\TodoList;
 
 class TodoListTest extends TestCase
 {
